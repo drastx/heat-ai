@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${env:HOME}/arduino-1.8.13/tools/**",
+                "${env:HOME}/arduino-1.8.13/hardware/tools/avr/avr/include/**",
+                "${env:HOME}/arduino-1.8.13/hardware/tools/avr/avr/include/avr/**",
+                "${env:HOME}/arduino-1.8.13/hardware/arduino/avr/**",
+                "${env:HOME}/arduino-1.8.13/hardware/arduino/avr/cores/arduino/**",
+                "${env:HOME}/arduino-1.8.13/hardware/tools/avr/avr/include/**",
+                "${env:HOME}/arduino-1.8.13/hardware/tools/avr/lib/gcc/avr/7.3.0/include/**",
+                "${env:HOME}/arduino-1.8.13/hardware/arduino/avr/variants/standard/**",
+                "${env:HOME}/arduino-1.8.13/hardware/arduino/avr/**",
+                "${env:HOME}/Arduino/libraries/**",
+                "${env:HOME}/Arduino/libraries/Low-Power/**",
+                "${env:HOME}/Arduino/libraries/SparkFun_SHTC3_Humidity_and_Temperature_Sensor_Library/src/**"
+            ],
+            "forcedInclude": [
+                "${env:HOME}/arduino-1.8.13/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17",
+            "defines": [
+                "USBCON",
+                "__AVR__"
+            ]
+        }
+    ],
+    "version": 4
+}
