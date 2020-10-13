@@ -1,0 +1,7 @@
+{
+    "programmer": "AVRISP mkII",
+    "board": "arduino:avr:pro",
+    "configuration": "cpu=8MHzatmega328",
+    "sketch": "sensor01_fw.ino",
+    "port": "/dev/ttyUSB1"
+}
