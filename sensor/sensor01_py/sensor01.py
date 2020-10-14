@@ -255,7 +255,7 @@ if cfg['sensor']['fork'] == "yes":
 		exit(0)
 
 dbfd = db(
-	cfg['influxdb']['ip'], cfg['influxdb']['port'],	cfg['influxdb']['user'],
+	cfg['influxdb']['ip'], cfg['influxdb']['port'], cfg['influxdb']['user'],
 	cfg['influxdb']['password'], cfg['influxdb']['dbname']
 )
 

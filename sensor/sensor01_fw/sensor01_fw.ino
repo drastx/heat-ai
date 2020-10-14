@@ -65,7 +65,7 @@ static SHTC3 s;
 		Serial.print(humidity); \
 		Serial.println(); \
  		delay(10); \
-} while(0)
+	} while(0)
 
 /* SENSOR ERROR: transmitted every time we have an error talking to the sensor
  * "E:FUNCTION:LINE:STATUS:passIDcrc:VALUE:passTcrc:VALUE:passRHcrc:VALUE */
